@@ -12,7 +12,7 @@ def post():
     return Response(json.dumps({'Output': 'Hello World'}), mimetype='application/json', status=200)
 
 if __name__ == '__main__':
-    default_port = "80"
+    default_port = "8080"
     default_host = "0.0.0.0"
     parser = optparse.OptionParser()
     parser.add_option("-H", "--host",
