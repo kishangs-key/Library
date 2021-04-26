@@ -1,12 +1,10 @@
 import json
 import pytest
-from helloworld.app import create_app
+from helloworld.run import application
 
-config_name = os.getenv('FLASK_CONFIG')
-app = create_app(config_name)
-
+@pytest.fixture
 def client():
-    return create_app.test_client()
+    return application.test_client()
 
 def test_response(client):
     return "The Website Works Successfully"
