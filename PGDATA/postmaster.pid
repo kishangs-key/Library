@@ -1,8 +1,7 @@
-6471
-/Users/prajvalnarasimha/Desktop/Project D/basic-CRUD-flask-app/PGDATA
-1619446309
+7765
+/home/ec2-user/environment/Library/helloworld/basic-CRUD-flask-app/PGDATA
+1619564007
 5432
-/tmp
+/var/run/postgresql
 localhost
- 16595968   1048576
-ready   
+  5432001    622592

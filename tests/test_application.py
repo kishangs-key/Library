@@ -1,10 +1,10 @@
 import json
 import pytest
-from helloworld.run import application
+from application import create_app
 
 @pytest.fixture
 def client():
-    return application.test_client()
+    return create_app.test_client()
 
 def test_response(client):
     return "The Website Works Successfully"

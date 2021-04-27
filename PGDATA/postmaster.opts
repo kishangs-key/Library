@@ -1,1 +1,1 @@
-/usr/local/Cellar/postgresql/13.2_2/bin/postgres "-D" "PGDATA"
+/usr/lib64/pgsql92/bin/postgres "-D" "PGDATA"
