@@ -1,0 +1,4 @@
+LOG:  database system was shut down at 2021-04-27 23:50:09 UTC
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "dreamteam_db" does not exist
