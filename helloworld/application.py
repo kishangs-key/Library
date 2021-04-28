@@ -1,8 +1,8 @@
 import os
 
-from app import create_app as application
+from app import application
 
-config_name = os.getenv('FLASK_CONFIG')
+config_name = 'development'
 app = application(config_name)
 
 if __name__ == '__main__':
