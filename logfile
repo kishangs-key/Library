@@ -1,3 +1,0 @@
-FATAL:  could not create lock file "/var/run/postgresql/.s.PGSQL.5432.lock": Permission denied
-FATAL:  lock file "postmaster.pid" already exists
-HINT:  Is another postmaster (PID 7765) running in data directory "/home/ec2-user/environment/Library/helloworld/basic-CRUD-flask-app/PGDATA"?
