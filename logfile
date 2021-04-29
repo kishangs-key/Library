@@ -2,3 +2,7 @@ FATAL:  lock file "postmaster.pid" already exists
 HINT:  Is another postmaster (PID 13081) running in data directory "/home/ec2-user/environment/Library/PGDATA"?
 FATAL:  lock file "postmaster.pid" already exists
 HINT:  Is another postmaster (PID 13081) running in data directory "/home/ec2-user/environment/Library/PGDATA"?
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 4433) running in data directory "/home/ec2-user/environment/Library/PGDATA"?
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 4433) running in data directory "/home/ec2-user/environment/Library/PGDATA"?
