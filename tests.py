@@ -172,8 +172,11 @@ class TestViews(TestBase):
 
 
 class TestErrorPages(TestBase):
-
+         
     def test_403_forbidden(self):
+        """
+       This is a a Class to test error pages
+        """  
         # create route to abort the request with the 403 Error
         @self.app.route('/403')
         def forbidden_error():
@@ -184,11 +187,17 @@ class TestErrorPages(TestBase):
         self.assertTrue(b"403 Error" in response.data)
 
     def test_404_not_found(self):
+        """
+        This is a a Class to test error pages
+        """
         response = self.client.get('/nothinghere')
         self.assertEqual(response.status_code, 404)
         self.assertTrue(b"404 Error" in response.data)
 
     def test_500_internal_server_error(self):
+        """
+        This is a a Class to test error pages
+        """
         # create route to abort the request with the 500 Error
         @self.app.route('/500')
         def internal_server_error():
